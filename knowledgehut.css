@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#wrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    
+}
+.leftbox {
+    height: 100vh;
+    
+    width: 45%;
+    float: left;
+    padding-left: 115px;
+    line-height: 30px;
+}
+
+.logo {
+    
+    margin-top: 65px;
+   
+    margin-bottom: 30px;
+}
+.content{
+   
+
+}
+.form{
+    line-height: 80px;
+    position: relative;
+    margin-top: 30px;
+    
+
+}
+
+
+.text1 label {
+    left: 3%;
+
+    top: -27px;
+    position: absolute;
+}
+
+
+.text2 label:last-of-type{
+    position: absolute;
+    
+    left: 3%;
+    bottom: 13%;
+}
+.form input{
+    height: 60px;
+    width: 450px;
+    border-radius: 5px;
+    padding-left: 14px;
+    padding-top: 20px;
+    border: 1px solid rgb(141, 141, 141);
+}
+
+.form input:hover{
+    border: 1px solid rgb(64, 64, 64);
+}
+
+.placeholderemail {
+    position: absolute;
+    left: 2px;
+    bottom: 47%;
+    margin: 10px;
+}
+
+.forgotorlogin{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgotorlogin .login button {
+    border-radius: 5px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 130px;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    padding: 14px 30px 14px 20px;
+    position: relative;
+}
+
+.forgotorlogin .login button p{
+    position: absolute;
+    top: 12px;
+}
+
+.forgotorlogin .login button i{
+    margin-left: 10px;
+    color: rgb(36, 218, 36);
+    left: 60px;
+    position: absolute;
+    transition-property: all;
+    transition-duration: 0.4s;
+    
+    
+    
+    
+   
+}
+
+.forgotorlogin .login button:hover i{
+    
+    left: 70px;
+    
+    
+}
+
+
+.forgotorlogin .forgot a{
+    text-decoration: none;
+    color: rgb(61, 61, 179);
+}
+
+.forgotorlogin .forgot a:before{
+    content: '';
+    
+    position: absolute;
+    background-color: rgb(61, 39, 150);
+    left: 7.5%;
+    top: 62%;
+    height: 1px;
+    width: 0;
+    
+     transition: all 0.5s ease-in-out;
+}
+
+.forgotorlogin .forgot a:hover:before{
+    width: 3%;
+}
+
+.otherlogin {
+    
+    margin-left: 125px;
+    padding-top: 50px;
+}
+
+.otherlogin p{
+    color: rgb(147, 143, 134);
+}
+
+.otherlogin .socialicon {
+    padding-left: 35px;
+    font-size: 20px;
+    padding-top: 5px;
+    color: rgb(147, 143, 134);
+}
+
+.otherlogin .socialicon i{
+    border: 1px solid rgb(163, 156, 141);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.otherlogin .socialicon i:first-of-type:hover{
+    background-color: red;
+    color: whitesmoke;
+}
+
+.otherlogin .socialicon i:last-of-type{
+    margin-left: 15px;
+}
+.otherlogin .socialicon i:last-of-type:hover{
+    background-color: rgb(28, 108, 169);
+    color: whitesmoke;
+
+}
+
+.footer{
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: small;
+    color: rgb(147, 143, 134);
+}
+.rightbox{
+    height: 100vh;
+    
+    width: 55%;
+    float: right;
+    position: relative;
+    
+}
+.box{
+
+    overflow: hidden;
+    
+}
+
+.image1{
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    
+ 
+ }
+.image2{
+   position: absolute;
+   z-index: 1;
+   top: 0;
+
+}
+
+.upimagetext{
+    color: whitesmoke;
+}
+
+.upimagetext h1 {
+    margin-left: 210px;
+    position: absolute;
+    
+    font-size: xx-large;
+    margin-top: 90px;
+}
+
+.upimagetext h4{
+    margin-left: 190px;
+    margin-top: 140px;
+    position: absolute;
+    font-size: 14px;
+    word-spacing: 5px;
+    width: 500px;
+}
+
+.image2 img {
+    width: 100%;
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
